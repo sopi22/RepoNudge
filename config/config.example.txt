@@ -1,0 +1,15 @@
+# RepoNudge config. One setting per line; '#' starts a comment.
+# Your copy lives in %LOCALAPPDATA%\RepoNudge\config.txt (Windows)
+# or ~/.reponudge/config.txt (Linux/macOS).
+
+# GitHub accounts to check (add one line per account):
+# user: your-github-name
+
+# Days without changes before a repo counts as "quiet":
+quiet-days: 90
+
+# Ignore rules:
+#   ignore: some-repo             ignore a whole repo
+#   ignore: some-repo|no-release  ignore one kind of finding for a repo
+#   ignore: *|quiet               ignore one kind everywhere
+# Kinds: tests, security, unreleased, no-release, issues, quiet, readme, license, description
