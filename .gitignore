@@ -1,0 +1,7 @@
+# RepoNudge keeps its data outside the repo (%LOCALAPPDATA%\RepoNudge or ~/.reponudge)
+*.log
+report.json
+last-findings.json
+config.txt
+.env
+testResults.xml
